@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <form action="" method="get">
+        <table border="1" align="center">
+            <tr>
+                <td>username</td>
+                <td><input type="text" readonly required value="admin" name="username"></td>
+            </tr>
+            <tr>
+                <td>password</td>
+                <td><input type="password" minlength="3" maxlength="10"></td>
+            </tr>
+
+            <tr>
+                <td>email</td>
+                <td><input type="email" disabled value="any@mail.com" name="email"></td>
+            </tr>
+
+            <tr>
+                <td>Mobile</td>
+                <td>
+                    <input type="tel" name="mobile" pattern="[0-9]" id="">
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>salary</td>
+                <td><input type="range" min="10" max="10000" value="50"></td>
+            </tr>
+
+            <tr>
+                <td>city</td>
+                <td>
+                    <select name="" id="">
+                        <option value=""></option>
+                        <option value="">ahmedabad</option>
+                        <option value="">rajokt</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>file</td>
+                <td>
+
+                    <input type="file" accept="image/*">
+                    <input type="file" accept="audio/*">
+                    <input type="file" accept="video/*">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+
+</body>
+</html>
