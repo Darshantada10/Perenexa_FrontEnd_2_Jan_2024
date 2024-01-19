@@ -1,0 +1,42 @@
+Q.1 What is Internet? HTTP/HTTPS, WWW How it use?
+Q.2 What is Domain Name and Top Domain Name Seo
+Q.3 What is Html ? How it define HTML Structure?
+Q.4 Created First Program In HTML?
+
+
+Q.1 Are the HTML tags and elements the same thing?
+Q.2 What is HTML Attributes ?
+Q.3 What are tags and attributes in HTML?
+Q.4 What is HTML Basic Tag in use ?
+Q.5 What are void elements in HTML?
+
+
+Q.1 What is Doctypes in HTML How it is use?
+Q.2 What is Meta Tag ? and how it use in it in real time website?
+Q.3 HTML How to Script apply ?
+Q.4 What is Html Layout ?
+
+
+Q.1 What is Tags and Self Closing Tage or Void Element in Html?
+Q.2 What is a Html List How tit is a created?
+Q.3 How to imges is tag is use in html?
+Q.4 What is html commets how to apply ?
+Q.5 What is Marquee Tag in html ?
+
+
+Q.1 What is a Html Headings in How it type and work?
+Q.2 What is a Text Foramating in html?
+Q.3 How to apply to Hml in Style ?
+Q.4 Html in Inline and Block tag ?
+Q.5 What is A Iframes in html How to nested Page in same page?
+Q.6 How to Apply in Html Backgrounds ?
+Q.7 How to Apply in Html Fonts ?
+Q.8 What are the various formatting tags in HTML?
+
+
+Q.1 What are a Anchor tag ? and how many type to target in anchor?
+Q.2 What is a Image Mapping ?
+Q.3 What is a table in html ? table in different tag in use ?
+Q.4 What table Border,cellspacing and cellpadding in html ?
+Q.5 How can we club two or more rows or columns into a
+single row column in an HTML table?
