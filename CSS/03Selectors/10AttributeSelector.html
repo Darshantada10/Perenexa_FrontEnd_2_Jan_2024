@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        /* <a> elements with a title attritbute */
+        a[title]
+        {
+            border: 2px solid orangered;
+
+        }
+        /* <a> elements with href = specifc  */
+        a[href="https://www.google.com"]
+        {
+            font-weight: bolder;
+        }
+
+        /* <a> elements that contains the specific word */
+            a[href*="checking"]
+            {
+                color: aqua;
+            }
+
+        /* elements with href ending with specfic word  */
+        a[href$=".in"]
+        {
+            font-style: italic;
+            color: orangered;
+        }    
+
+        /* Elements whose class attribute contains the specfic word */
+        a[class~="logo"]
+        {
+            font-style: oblique;
+            color: violet;
+        }
+    </style>
+
+<a href="" >Click Here</a>
+<a href="https://www.inchecking.com" >This is a link </a>
+<a href="" title="Website Title">Website</a>
+<a href="https://www.google.com">Google</a>
+
+<a href="checking">Checking</a>
+
+<a href="https://www.example.com">Contact</a>
+<a href="https://www.example.in">India</a>
+<a href="https://www.example.com">Contact</a>
+
+<a href="#" class="logo">My Website</a>
+
+
+
+
+
+
+
+</body>
+</html>
