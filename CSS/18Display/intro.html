@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<style>
+    .display-block
+    {
+        display: block;
+        margin: 20px;
+        padding: 20px;
+        border: 2px solid;
+        width: 100%;
+    }
+    .display-inline
+    {
+        display: inline;
+        margin: 20px;
+        padding: 20px;
+        border: 2px solid;
+    }
+    .display-inline-block
+    {
+        display: inline-block;
+        margin: 20px;
+        padding: 20px;
+        border: 2px solid;
+    }
+    .display-flex
+    {
+        display: flex;
+        margin: 20px;
+        padding: 20px;
+        border: 2px solid;
+        /* width: 100%; */
+        justify-content: space-between;
+    }
+    .display-grid
+    {
+        margin: 20px;
+        padding: 20px;
+        border: 2px solid;
+        background-color: rgb(252, 7, 7);
+        text-align: center;
+        /* display: grid; */
+    }
+    .display-grid-wrapper
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px ;
+    }
+</style>
+
+<ul>
+    <li>Display : block</li>
+    <li>Display : inline</li>
+    <li>Display : inline-block</li>
+    <li>Display : flex</li>
+    <li>Display : grid</li>
+</ul>
+
+
+<h2>Display Block</h2>
+<div class="display-block-wrapper">
+    Before display block
+    <div class="display-block">Lorem, ipsum dolor.</div>
+    <div class="display-block">Lorem, ipsum dolor.</div>
+    <div class="display-block">Lorem, ipsum dolor.</div>
+    <div class="display-block">Lorem, ipsum dolor.</div>
+    <div class="display-block">Lorem, ipsum dolor.</div>
+    After Display Block
+</div>
+
+<hr>
+
+<h2>Display Inline</h2>
+<div class="display-inline-wrapper">
+    Before display inline
+    <div class="display-inline">Lorem, ipsum dolor.</div>
+    <div class="display-inline">Lorem, ipsum dolor.</div>
+    <div class="display-inline">Lorem, ipsum dolor.</div>
+    <div class="display-inline">Lorem, ipsum dolor.</div>
+    <div class="display-inline">Lorem, ipsum dolor.</div>
+    After Display inline
+</div>
+
+<hr>
+<h2>Display Inline Block</h2>
+<div class="display-inline-block-wrapper">
+    Before display inline block
+    <div class="display-inline-block">Lorem, ipsum dolor.</div>
+    <div class="display-inline-block">Lorem, ipsum dolor.</div>
+    <div class="display-inline-block">Lorem, ipsum dolor.</div>
+    <div class="display-inline-block">Lorem, ipsum dolor.</div>
+    <div class="display-inline-block">Lorem, ipsum dolor.</div>
+    After Display inline block
+</div>
+
+<hr>
+<h2>Display flex</h2>
+<div class="display-flex-wrapper">
+    Before display flex
+    <div class="display-flex">Lorem, ipsum dolor.</div>
+    <div class="display-flex">Lorem, ipsum dolor.</div>
+    <div class="display-flex">Lorem, ipsum dolor.</div>
+    <div class="display-flex">Lorem, ipsum dolor.</div>
+    <div class="display-flex">Lorem, ipsum dolor.</div>
+    After Display flex
+</div>
+
+<hr>
+<h2>Display grid</h2>
+<div class="display-grid-wrapper">
+    Before display grid
+    <div class="display-grid">Lorem, ipsum dolor.</div>
+    <div class="display-grid">Lorem, ipsum dolor.</div>
+    <div class="display-grid">Lorem, ipsum dolor.</div>
+    <div class="display-grid">Lorem, ipsum dolor.</div>
+    <div class="display-grid">Lorem, ipsum dolor.</div>
+    After Display grid
+</div>
+
+</body>
+</html>
