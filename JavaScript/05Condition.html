@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<input type="text" name="marks" id="marks" onkeyup="result(this)">
+
+<div id="result"></div>
+
+<script>
+        function result(marks)
+        {
+            console.log(typeof marks);
+            console.log("Inside Function");
+            console.log(marks.value);
+            var result = marks.value
+
+            if(result>=0 && result<=33)
+            {
+                console.log("first");
+                    document.getElementById("result").innerHTML = "Fail"
+                }
+                else if(result>=34 && result<=50)
+                {
+                document.getElementById("result").innerHTML = "C Grade"
+
+            }
+                else if(result>=51 && result<=70)
+                {
+                document.getElementById("result").innerHTML = "B Grade"
+
+            }
+                else if(result>=71 && result<=100)
+                {
+                document.getElementById("result").innerHTML = "A Grade"
+                
+            }
+            else
+            {
+                document.getElementById("result").innerHTML = "Try Again"
+
+            }
+        }
+</script>
+
+
+</body>
+</html>
