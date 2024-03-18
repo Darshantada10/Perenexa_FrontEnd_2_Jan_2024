@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+
+
+
+    <!-- <form action="" method="post"> -->
+
+        <input type="text" name="username" id="username" onblur="getdata()">
+        <input type="text" name="password" id="password" onkeyup="getpass()" >
+        <input type="text" name="email" id="email" onkeydown="getemail()">
+
+
+    <!-- </form> -->
+
+<script>
+
+    function getemail()
+    {
+        console.log("Inside email");
+        console.log(document.getElementById("email").value);
+
+    }
+    function getpass()
+    {
+        console.log("Inside password");
+        console.log(document.getElementById("password").value);
+
+    }
+    function getdata()
+    {
+        console.log("Inside function");
+        console.log(document.getElementById("username").value);
+    }
+
+
+
+</script>
+
+
+</body>
+</html>
