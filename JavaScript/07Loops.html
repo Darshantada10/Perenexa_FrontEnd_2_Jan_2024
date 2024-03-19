@@ -57,8 +57,34 @@
         console.log(objectdata.Name);
         console.log(objectdata.Age);
 
-        
+        console.log("For in Loop");
+        for (const key in objectdata) 
+        {
+            console.log(key);    
+            console.log(objectdata[key]);    
+        }
 
+        console.log("For of Loop");
+        // for (const iterator of objectdata) 
+        for (const iterator of arraydata) 
+        {
+            console.log(iterator);    
+        }
+
+
+        for(let i = 0;i<10;i++)
+        {
+            console.log("Console of Outer Loop",i);
+            for(let j=0;j<10;j++)
+            {
+                console.log("Inside J Loop",j);
+                // document.write(" * ");
+                // document.write(j+"  ");
+                document.write(i+"  ");
+
+            }
+            document.write("<br>");
+        }
     </script>
 
 

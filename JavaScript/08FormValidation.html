@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+                <input type="text" name="username" id="username" onblur="validate(this,'UsernameError')">
+                <span id="UsernameError" style="color: red;"></span> <br>
+                <!-- <input type="text" name="email" id="email" onblur="validate(this,'EmailError')" onkeyup="checkemail(this,'EmailError')"> <br> -->
+                <input type="text" name="kuchbbhi" id="email" onblur="validate(this,'EmailError')" onkeyup="checkemail(this,'EmailError')">
+                <span id="EmailError" style="color: red;"></span> <br>
+                <!-- <input type="text" name="email" id="email" onkeypress="validate(this,'EmailError')">
+                <span id="EmailError" style="color: red;"></span> <br> -->
+                <input type="text" name="password" id="password" onblur="validate(this,'PasswordError')">
+                <span id="PasswordError" style="color: red;"></span> <br>
+                 <input type="text" name="mobile" id="mobile" onblur="validate(this,'MobileError')">
+                <span id="MobileError" style="color: red;"></span> <br>
+
+
+                <script>
+
+                    function checkemail(tag,spanid)
+                    {
+                        console.log(tag.value);
+                        console.log(tag.name);
+
+
+                        // var format = /^+$/; // Pattern
+                        var format = /^([a-zA-Z0-9_\.\-])+@(([a-zA-Z\-])+\.)+([a-zA-Z]{2,4})+$/;
+                        // console.log(format);
+                        console.log(format.test(tag.value));
+
+                    }
+
+                    /*
+                        SELECT * FROM USERS name = 'admin\'s'
+                    */
+
+
+                    function validate(fv,sv)
+                    {
+                        console.log(fv);
+                        console.log(sv);
+                        // var username = fv.value
+                        // console.log(username);
+                        // var username = document.getElementById("username").value
+                        // console.log(username);
+
+                        // if(username == "")
+                        // {
+                        //     // console.log("Inside if");
+                        //     document.getElementById("UsernameError").innerHTML = "This Field is Required"
+                        // }
+
+                        if (fv.value == "") 
+                        {
+                            document.getElementById(sv).innerText = "This Field is Required " +sv
+                        }
+                        else
+                        {
+                            document.getElementById(sv).innerHTML = ""
+
+                        }
+
+                    }
+                </script>
+</body>
+</html>
